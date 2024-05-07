@@ -1,0 +1,6 @@
+body {
+    background-image: url('fondo_claro_1-100.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    /* Puedes agregar más propiedades CSS según sea necesario */
+}
