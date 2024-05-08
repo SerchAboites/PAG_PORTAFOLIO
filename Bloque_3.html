@@ -12,6 +12,19 @@
     
     <style>
         
+                    video {
+        width: 100%; /* Video ocupará el 100% del ancho disponible por defecto */
+        height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+    }
+
+    @media (min-width: 700px) {
+        /* Estilos específicos para pantallas con un ancho mínimo de 700px (orientación horizontal) */
+        video {
+            width: 700px; /* Ancho fijo de 700px */
+            height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+        }
+    }
+        
                         h1 {
             font-family: 'Cinzel', serif; /* Aplica la tipografía Cinzel a los encabezados h1 */
         }
@@ -93,7 +106,7 @@
         
     <h2>RENDERIZADO EN TIEMPO REAL</h2>
         
-            <video width="700" height="auto" controls>
+            <video control>
   <source src="Renderizado_en_tiempo_real_Unity.mp4" type="video/mp4">
         </video>
         
@@ -122,7 +135,7 @@
     <section style="text-align: center;">
              <h2>RENDERIZADO Y PROGRAMACIÓN DE INTERACCIONES</h2> 
         
-<video width="700" height="auto" controls>
+<video control>
   <source src="Renderizado_Tiempo_Real_Interactivo.mp4" type="video/mp4">
   Tu navegador no soporta la etiqueta de video.
 </video>       
