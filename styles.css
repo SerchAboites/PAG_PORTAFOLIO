@@ -2,14 +2,39 @@ body {
     background-image: url('fondo_claro_1-100.jpg');
     background-size: cover; /* Ajusta la imagen para que cubra todo el cuerpo */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo */
     /* Puedes agregar más propiedades CSS según sea necesario */
 }
 
-<uniquifier>: Usar un nombre de clase único y descriptivo
+<uniquifier>: h1 un nombre de clase único y descriptivo
 <weight>: Utilice un valor de 400 a 900
 
-.cinzel-<titulos> {
+.cinzel-<uniquifier> {
  font-family: "Cinzel", serif;
+ font-optical-sizing: auto;
+ font-weight: <peso>;
+ font-style: normal;
+}
+
+
+
+<uniquifier>: body un nombre de clase único y descriptivo
+<weight>: Utilice un valor de 300 a 700
+
+.arena-movediza <uniquifier> {
+ font-family: "Arenas movedizas", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <peso>;
+ font-style: normal;
+}
+
+
+
+<uniquifier>: Usar un nombre de clase único y descriptivo
+<weight>: Utilice un valor de 100 a 900
+
+.lexend-deca-<uniquifier> {
+ font-family: "Lexend Deca", sans-serif;
  font-optical-sizing: auto;
  font-weight: <peso>;
  font-style: normal;
