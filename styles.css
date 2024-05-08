@@ -4,3 +4,15 @@ body {
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     /* Puedes agregar más propiedades CSS según sea necesario */
 }
+
+<uniquifier>: Usar un nombre de clase único y descriptivo
+<weight>: Utilice un valor de 400 a 900
+
+.cinzel-<titulos> {
+ font-family: "Cinzel", serif;
+ font-optical-sizing: auto;
+ font-weight: <peso>;
+ font-style: normal;
+}
+
+
