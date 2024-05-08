@@ -16,6 +16,19 @@
     
     <style>
         
+            img {
+        width: 100%; /* Imagen ocupará el 100% del ancho disponible por defecto */
+        height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+    }
+
+    /* Media query para pantallas con un ancho mínimo de 700px (orientación horizontal) */
+    @media (min-width: 700px) {
+        img {
+            width: 700px; /* Ancho fijo de 700px */
+            height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+        }
+    }
+        
         
             video {
         width: 100%; /* Video ocupará el 100% del ancho disponible por defecto */
