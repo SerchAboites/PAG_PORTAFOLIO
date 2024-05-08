@@ -1,5 +1,27 @@
+
+#videoFondo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+}
+
+.contenido {
+  /* Estilos para el contenido */
+  /* Asegúrate de ajustar el z-index del contenido para que aparezca encima del video */
+}
+
+
+
+
 body {
-    background-image: url('fondo_claro_1-100.jpg');
+    
+    
+    background-image: url('fondo_claro_1-100.jpg');*/
     background-size: cover; /* Ajusta la imagen para que cubra todo el cuerpo */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     background-attachment: fixed; /* Fija la imagen de fondo */
