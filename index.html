@@ -16,6 +16,20 @@
     
     <style>
         
+        
+            video {
+        width: 100%; /* Video ocupará el 100% del ancho disponible por defecto */
+        height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+    }
+
+    @media (min-width: 700px) {
+        /* Estilos específicos para pantallas con un ancho mínimo de 700px (orientación horizontal) */
+        video {
+            width: 700px; /* Ancho fijo de 700px */
+            height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+        }
+    }
+        
         h1 {
             font-family: 'Cinzel', serif; /* Aplica la tipografía Cinzel a los encabezados h1 */
         }
@@ -125,10 +139,9 @@ Haz click en la imagen animada para ver el demo reel completo:</p>
         
     <h1></h1>
 
-<video style="max-width: 50%; height: auto;" controls>
+<video controls>
     <source src="01 (PRINCIPAL) DEMO REEL - SERGIO_1.mp4" type="video/mp4">
 </video>
-    
     
 </section>
     
